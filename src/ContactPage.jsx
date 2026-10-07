@@ -7,6 +7,7 @@ import QuoteRequestModal from './components/QuoteRequestModal'
 import TurnstileField from './components/TurnstileField'
 import useScrollAnimations from './hooks/useScrollAnimations'
 import contactHeroImage from './assets/contact-hero-v1.jpg'
+import { sitePath } from './utils/sitePath'
 
 const contactFaqs = [
   ['How can I contact FIODARK Ghana?', 'Email moses@fiodark-ghana.com or call +233 244 232 723 or +233 503 360 322.'],
@@ -79,6 +80,7 @@ export default function ContactPage() {
                 <label><span className="field-label">Subject</span><input name="subject" type="text" placeholder="What would you like help with?" minLength={3} maxLength={120} required /></label>
                 <label><span className="field-label">Message</span><textarea name="message" rows="5" placeholder="Tell us about your enquiry or shipment" minLength={10} maxLength={2000} required /></label>
                 <TurnstileField onVerify={setContactVerified} resetSignal={contactVerificationReset} />
+                <p className="form-privacy-notice">We use these details only to respond to your enquiry. Please review our <a href={sitePath('/privacy')}>privacy notice</a>.</p>
                 {contactState.errors && <p className="form-error" role="alert"><AlertCircle /> We couldn’t send your message. Please check the details and try again.</p>}
                 <button type="submit" disabled={contactState.submitting || !contactVerified}>{contactState.submitting ? 'Sending…' : 'Submit'} {!contactState.submitting && <ArrowRight size={17} />}</button>
               </form>}

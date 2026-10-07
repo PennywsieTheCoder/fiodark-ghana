@@ -23,6 +23,7 @@ import cargoHandlingImage from './assets/service-cargo-handling-v1.jpg'
 import tradeConsultancyImage from './assets/service-trade-consultancy-v1.jpg'
 import AboutPage from './AboutPage'
 import ContactPage from './ContactPage'
+import PrivacyPage from './PrivacyPage'
 import ServicesPage from './ServicesPage'
 import PageFooter from './components/PageFooter'
 import PageHeader from './components/PageHeader'
@@ -121,6 +122,7 @@ function App() {
   if (currentPath === '/about') return <AboutPage />
   if (currentPath === '/services') return <ServicesPage />
   if (currentPath === '/contact') return <ContactPage />
+  if (currentPath === '/privacy') return <PrivacyPage />
 
   return (
     <div className="site-shell page-enter" id="top" ref={pageRef}>

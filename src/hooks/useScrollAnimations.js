@@ -9,6 +9,8 @@ const revealSelector = [
   '.objective-grid article',
   '.purpose-card',
   '.faq-list details',
+  '.privacy-content > aside',
+  '.privacy-sections > section',
 ].join(', ')
 
 export default function useScrollAnimations() {

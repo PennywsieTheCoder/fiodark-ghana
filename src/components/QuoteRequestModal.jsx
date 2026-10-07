@@ -3,6 +3,7 @@ import { useForm } from '@formspree/react'
 import { AlertCircle, ArrowRight, CheckCircle2, Mail, MapPin, Phone, X } from 'lucide-react'
 import { FormCombobox, ModernDateInput } from './FormControls'
 import TurnstileField from './TurnstileField'
+import { sitePath } from '../utils/sitePath'
 
 const serviceOptions = [
   'Sea Freight',
@@ -94,6 +95,7 @@ export default function QuoteRequestModal({ initialService = '', onClose }) {
               <label><span className="field-label">Estimated weight <em>Optional</em></span><input name="Estimated weight" type="text" placeholder="e.g. 8,500 kg" maxLength={60} /></label>
               <label className="quote-form-wide"><span className="field-label">Shipment details</span><textarea name="Shipment details" rows="4" placeholder="Quantity, dimensions and any special handling requirements" minLength={10} maxLength={2500} required /></label>
               <TurnstileField onVerify={setQuoteVerified} resetSignal={quoteVerificationReset} />
+              <p className="form-privacy-notice quote-form-wide">We use these details to review and respond to your quotation request. Please review our <a href={sitePath('/privacy')}>privacy notice</a>.</p>
               {quoteState.errors && <p className="form-error quote-form-wide" role="alert"><AlertCircle /> We couldn’t submit your request. Please check the details and try again.</p>}
               <button className="quote-form-submit" type="submit" disabled={quoteState.submitting || !quoteVerified}>{quoteState.submitting ? 'Sending…' : 'Submit'} {!quoteState.submitting && <ArrowRight size={17} />}</button>
             </form></>}
