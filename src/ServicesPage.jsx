@@ -118,8 +118,8 @@ export default function ServicesPage() {
         </section>
 
         <section className="service-quote-band" id="request-quote">
-          <div><p className="section-kicker section-kicker-light">Not sure where to start?</p><h2>Tell us about the cargo. We will help identify the service.</h2></div>
-          <button className="button button-white" type="button" onClick={() => setQuoteService('Trade Consultancy')}>Open quote form <ArrowRight size={17} /></button>
+          <div><p className="section-kicker section-kicker-light">Not sure where to start?</p><h2>Not sure which service fits your cargo?</h2><p className="conversion-copy">Share the route, cargo type and timeline. We’ll recommend the right freight and clearance approach.</p></div>
+          <button className="button button-white" type="button" onClick={() => setQuoteService('Trade Consultancy')}>Get a recommendation <ArrowRight size={17} /></button>
         </section>
 
         <section className="faq-section section page-faq">

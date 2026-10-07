@@ -157,8 +157,8 @@ export default function AboutPage() {
         </section>
 
         <section className="quote about-quote">
-          <div><p className="section-kicker section-kicker-light">Talk to our team</p><h2>Let experience guide your next shipment.</h2></div>
-          <div><p>Share your cargo details and we will help you identify the right freight, clearance and transportation approach.</p><a className="button button-white" href={`${sitePath('/services')}#request-quote`}>Request a quote <ArrowRight size={17} /></a></div>
+          <div><p className="section-kicker section-kicker-light">Talk to our team</p><h2>Put experience behind your next shipment.</h2></div>
+          <div><p>Share your cargo details and we will help you identify the right freight, clearance and transportation approach.</p><a className="button button-white" href={`${sitePath('/services')}#request-quote`}>Plan your shipment <ArrowRight size={17} /></a></div>
         </section>
       </main>
       <PageFooter />
