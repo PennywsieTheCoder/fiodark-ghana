@@ -740,6 +740,13 @@ body, .about-page, .process, .about-header, .service-card, .objective-grid artic
   .contact-form-pane { padding: 2rem 1.4rem 2.5rem; }
   .contact-form { grid-template-columns: 1fr; }
   .contact-form label:last-of-type { grid-column: auto; }
+  .contact-form input,
+  .contact-form textarea,
+  .quote-form input,
+  .quote-form select,
+  .quote-form textarea,
+  .quote-form .form-combobox-control,
+  .modern-date-trigger { font-size: 16px; }
   .contact-form button { width: 100%; }
   .quote-modal-backdrop { align-items: flex-start; padding: 0; }
   .quote-modal { border-radius: 0; min-height: 100%; }
