@@ -11,7 +11,13 @@ export default function PageFooter() {
         <div><h3>Services</h3><a href={sitePath('/services')}>Sea freight</a><a href={sitePath('/services')}>Air freight</a><a href={sitePath('/services')}>Customs clearance</a><a href={sitePath('/services')}>Haulage & delivery</a></div>
         <div><h3>Contact</h3><a href="mailto:moses@fiodark-ghana.com"><Mail size={15} /> moses@fiodark-ghana.com</a><a href="tel:+233244232723"><Phone size={15} /> +233 244 232 723</a><a href="tel:+233503360322"><Phone size={15} /> +233 503 360 322</a></div>
       </div>
-      <div className="footer-bottom"><span>© 2026 FIODARK Ghana</span><span>Service with distinction · Registered as Fiodark Agencies</span></div>
+      <div className="footer-bottom">
+        <div className="footer-legal"><span>© 2026 FIODARK Ghana</span><span>Service with distinction · Registered as Fiodark Agencies</span></div>
+        <div className="footer-powered" aria-label="Powered by SYNTI">
+          <span>Powered by</span>
+          <span className="footer-powered-logo" aria-hidden="true"><img src={sitePath('/synti-logo.png')} alt="" /></span>
+        </div>
+      </div>
     </footer>
   )
 }
