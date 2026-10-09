@@ -239,8 +239,8 @@ img { display: block; max-width: 100%; }
 .footer-bottom { align-items: center; border-top: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.42); display: flex; font-size: 0.58rem; justify-content: space-between; padding-top: 1rem; }
 .footer-legal { display: flex; gap: clamp(0.75rem, 2vw, 2rem); }
 .footer-powered { align-items: center; color: rgba(255,255,255,0.55); display: inline-flex; flex: 0 0 auto; gap: 0.5rem; letter-spacing: 0.12em; text-transform: uppercase; }
-.footer-powered-logo { display: block; height: 30px; overflow: hidden; position: relative; width: 122px; }
-.footer-powered-logo img { height: auto; left: -40px; max-width: none; mix-blend-mode: screen; position: absolute; top: -10px; width: 235px; }
+.footer-powered-logo { display: block; height: 30px; overflow: hidden; position: relative; width: 136px; }
+.footer-powered-logo img { height: auto; left: -37px; max-width: none; mix-blend-mode: screen; position: absolute; top: -11px; width: 210px; }
 
 /* About page */
 .about-page { background: white; }
