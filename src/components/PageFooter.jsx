@@ -13,7 +13,7 @@ export default function PageFooter() {
       </div>
       <div className="footer-bottom">
         <div className="footer-legal"><span>© 2026 FIODARK Ghana</span><span>Service with distinction · Registered as Fiodark Agencies</span></div>
-        <div className="footer-powered" aria-label="Powered by SYNTI">
+        <div className="footer-powered" aria-label="Powered by SYNTIQ Labs">
           <span>Powered by</span>
           <span className="footer-powered-logo" aria-hidden="true"><img src={sitePath('/synti-logo.png')} alt="" /></span>
         </div>
