@@ -24,6 +24,7 @@ export default function PrivacyPage() {
             <p className="section-kicker">Privacy notice</p>
             <strong>Effective 7 October 2026</strong>
             <p>FIODARK Ghana, registered as Fiodark Agencies, is responsible for the personal information described in this notice.</p>
+            <a href="mailto:enquiries@fiodark-ghana.com"><Mail /> enquiries@fiodark-ghana.com</a>
             <a href="mailto:moses@fiodark-ghana.com"><Mail /> moses@fiodark-ghana.com</a>
           </aside>
 

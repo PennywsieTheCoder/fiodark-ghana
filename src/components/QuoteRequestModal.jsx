@@ -65,7 +65,7 @@ export default function QuoteRequestModal({ initialService = '', onClose }) {
             <h3>Plan your shipment with confidence.</h3>
             <p>Give us the essential cargo details and submit your request directly to our team for review.</p>
             <div className="quote-modal-info-list">
-              <p><Mail /><span>moses@fiodark-ghana.com</span></p>
+              <p><Mail /><span>enquiries@fiodark-ghana.com<br />moses@fiodark-ghana.com</span></p>
               <p><Phone /><span>+233 244 232 723<br />+233 503 360 322</span></p>
               <p><MapPin /><span>Mataheko-Afienya, Ghana</span></p>
             </div>

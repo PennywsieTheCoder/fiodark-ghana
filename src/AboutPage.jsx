@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     question: 'How can I request a freight consultation or quotation?',
-    answer: 'Email moses@fiodark-ghana.com or call +233 244 232 723 or +233 503 360 322 with your cargo details, route and expected timeline.',
+    answer: 'Email enquiries@fiodark-ghana.com or moses@fiodark-ghana.com, or call +233 244 232 723 or +233 503 360 322 with your cargo details, route and expected timeline.',
   },
 ]
 

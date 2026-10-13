@@ -10,7 +10,7 @@ import contactHeroImage from './assets/contact-hero-v1.jpg'
 import { sitePath } from './utils/sitePath'
 
 const contactFaqs = [
-  ['How can I contact FIODARK Ghana?', 'Email moses@fiodark-ghana.com or call +233 244 232 723 or +233 503 360 322.'],
+  ['How can I contact FIODARK Ghana?', 'Email enquiries@fiodark-ghana.com or moses@fiodark-ghana.com, or call +233 244 232 723 or +233 503 360 322.'],
   ['Where is the FIODARK Ghana office located?', 'The office is at PR/NP/069, Vocrown Street, behind Melcom Stores, Mataheko-Afienya, Ghana.'],
   ['What details should I include when making an enquiry?', 'Include your name, preferred contact details, the service you need and a short description of your shipment or question.'],
   ['Can I request a quotation through the website?', 'Yes. Use the Request a Quote button to submit your shipment details securely through the website. Our team will receive the request by email.'],
@@ -47,7 +47,7 @@ export default function ContactPage() {
         </section>
 
         <section className="contact-details-grid section">
-          <article><div className="contact-card-icon"><Mail /></div><span>Email</span><h2>Send us the details.</h2><a className="contact-card-action" href="mailto:moses@fiodark-ghana.com">moses@fiodark-ghana.com <ArrowRight size={14} /></a></article>
+          <article><div className="contact-card-icon"><Mail /></div><span>Email</span><h2>Send us the details.</h2><div className="contact-email-list"><a className="contact-card-action" href="mailto:enquiries@fiodark-ghana.com">enquiries@fiodark-ghana.com <ArrowRight size={14} /></a><a className="contact-card-action" href="mailto:moses@fiodark-ghana.com">moses@fiodark-ghana.com <ArrowRight size={14} /></a></div></article>
           <article><div className="contact-card-icon"><Phone /></div><span>Call</span><h2>Speak with our team.</h2><div className="contact-phone-list"><a href="tel:+233244232723">+233 244 232 723</a><a href="tel:+233503360322">+233 503 360 322</a></div></article>
           <article><div className="contact-card-icon"><MapPin /></div><span>Visit</span><h2>Find us in Afienya.</h2><p>PR/NP/069, Vocrown Street,<br />Behind Melcom Stores,<br />Mataheko-Afienya, Ghana</p><a className="contact-card-action" href="https://www.google.com/maps/search/?api=1&query=Vocrown+Street+Mataheko+Afienya+Ghana" target="_blank" rel="noreferrer">Open in Google Maps <ArrowRight size={14} /></a></article>
         </section>
@@ -61,7 +61,7 @@ export default function ContactPage() {
               <p>Reach our team directly or leave your details and continue the conversation by email.</p>
               <div className="contact-form-info-list">
                 <a href="tel:+233244232723"><Phone /> <span>+233 244 232 723<br />+233 503 360 322</span></a>
-                <a href="mailto:moses@fiodark-ghana.com"><Mail /> <span>moses@fiodark-ghana.com</span></a>
+                <p><Mail /> <span><a href="mailto:enquiries@fiodark-ghana.com">enquiries@fiodark-ghana.com</a><br /><a href="mailto:moses@fiodark-ghana.com">moses@fiodark-ghana.com</a></span></p>
                 <p><MapPin /> <span>Vocrown Street,<br />Mataheko-Afienya, Ghana</span></p>
               </div>
               <span className="contact-info-orbit" aria-hidden="true" />
